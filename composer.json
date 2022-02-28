@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+     "task2\\": "vendor/task2/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+
+  }
+}

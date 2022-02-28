@@ -1,0 +1,10 @@
+#Задаем кодировку
+AddDefaultCharset utf-8
+#Вклчюаем модуль перенаправления пользователя
+RewriteEngine On
+#(.*) - все запросы перенаправляются на public/$1
+#RewriteRule (.*) public/index.php
+#^(.*)$ public/index.php?q=$1 [QSA,L]
+
+RewriteRule (.*) public/index.php?q=$1 [QSA,L]
+
